@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38eb1967a32b3b14a9fdd93ebec2a44c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Samples/ScrollerSamples/Scripts/Popup.cs
+  uploadId: 506554

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3c008c1750fa341a182d7d5907af0f3c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Samples/ScrollerSamples/Scenes/DemoGrid.unity
+  uploadId: 506554

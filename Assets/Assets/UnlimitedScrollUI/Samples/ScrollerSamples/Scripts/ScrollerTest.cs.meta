@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a12d7ffb1fbe94b43a69af2b59eeda17
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Samples/ScrollerSamples/Scripts/ScrollerTest.cs
+  uploadId: 506554

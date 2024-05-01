@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bff71ff7b04310744876309f7ce34829
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Runtime/UnlimitedScrollUI.asmdef
+  uploadId: 506554

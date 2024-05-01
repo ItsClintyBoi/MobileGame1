@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0220be2fbd7534651a3dd1064c85f0dd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Samples/ScrollerSamples/Scenes/DemoHorizontal.unity
+  uploadId: 506554

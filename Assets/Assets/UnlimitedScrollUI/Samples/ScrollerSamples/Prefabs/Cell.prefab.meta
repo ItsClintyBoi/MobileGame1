@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 074c0ce5b3ed30946bf700c01b8a0cc7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Samples/ScrollerSamples/Prefabs/Cell.prefab
+  uploadId: 506554

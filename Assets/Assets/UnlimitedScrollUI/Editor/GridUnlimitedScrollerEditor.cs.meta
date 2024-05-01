@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f8e71e87859432429eb6de503f00b38
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196531
+  packageName: Unlimited Scroll UI
+  packageVersion: 1.5.1
+  assetPath: Assets/UnlimitedScrollUI/Editor/GridUnlimitedScrollerEditor.cs
+  uploadId: 506554
