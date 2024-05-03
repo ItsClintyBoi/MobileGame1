@@ -27,8 +27,9 @@ using UnityEngine;
                 host.Gravity *= flipOnClick ? -1 : 1;
             }
         }
+
         if (host.OnGround() || !onGroundRequired)
-            host.Sprite.rotation = Quaternion.Euler(0, 0, Mathf.Round(host.Sprite.rotation.z / 90) * 90);
+            host.Sprite.rotation = Quaternion.Euler(0, 0, Mathf.Round(host.Sprite.rotation.eulerAngles.z / 90) * 90);
         else
             host.Sprite.Rotate(Vector3.back, rotationMod * Time.deltaTime * host.Gravity);
     }
