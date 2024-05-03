@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public enum Speeds { Slow = 0, Normal = 1, Fast = 2, Faster = 3, Fastest = 4 };
-public enum Gamemodes { Cube = 0, Ship = 1, Ball = 2, UFO = 3, Wave = 4, Robot = 5, Spider = 6 };
+public enum Speeds { Slow, Normal, Fast, Faster, Fastest };
+public enum Gamemodes { Cube, Ship, Ball, UFO, Wave, Robot, Spider };
 
 public class Movement : MonoBehaviour
 {
