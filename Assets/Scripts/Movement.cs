@@ -23,6 +23,8 @@ public class Movement : MonoBehaviour
 
     public float GroundCheckRadius;
 
+    float timeElapsed = 0;
+
     float[] SpeedValues = { 8.6f, 10.4f, 12.96f, 15.6f, 19.27f };
 
     Rigidbody2D rb;
@@ -30,17 +32,39 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        timeElapsed = 0;
     }
-
+    private void Update()
+    {
+        Debug.Log("time is" + timeElapsed);
+        if (TouchingWall())
+        {
+            timeElapsed += Time.deltaTime;
+            if (timeElapsed > 0.5)
+            {
+                ResetPlayer();
+            }
+        }
+        else timeElapsed = 0;
+    }
     void FixedUpdate()
     {
-        transform.position += Vector3.right * SpeedValues[(int)CurrentSpeed] * Time.deltaTime;
+        if (!TouchingWall())
+        {
+            transform.position += Vector3.right * SpeedValues[(int)CurrentSpeed] * Time.deltaTime;
+        }
+
+         
+        
+       // if (TouchingWall())
+       // {
+       //      Vector3 T = transform.position;
+        //    transform.position = T;
+       // }
         Invoke(CurrentGamemode.ToString(), 0);
 
-        if (TouchingWall())
-            ResetPlayer();
+       
     }
-
     public bool OnGround()
     {
         return Physics2D.OverlapBox(transform.position + Vector3.down * Gravity * 0.5f, Vector2.right * 1.1f + Vector2.up * GroundCheckRadius, 0, GroundMask);
